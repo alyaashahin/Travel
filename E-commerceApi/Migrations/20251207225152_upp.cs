@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace E_commerceApi.Migrations
+namespace Travel.Migrations
 {
     /// <inheritdoc />
     public partial class upp : Migration

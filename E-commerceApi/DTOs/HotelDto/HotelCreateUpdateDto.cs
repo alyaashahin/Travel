@@ -1,4 +1,4 @@
-﻿namespace E_commerceApi.DTOs.HotelDto
+﻿namespace Travel.DTOs.HotelDto
 {
     public class HotelCreateUpdateDto
    {

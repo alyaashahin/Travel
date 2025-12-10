@@ -10,14 +10,19 @@
   },
   "profiles": {
     "http": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5281",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchBrowser": true,
+        "launchUrl": "swagger",
+        "applicationUrl": "http://localhost:5281",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "JWT_KEY": "8dfb965a2a4f4b26840959c6688a043e", // A9$kL!zR78@#Qp2W%4Xd!8nF23*BmC9$Vt6
+            "EMAIL_USER": "asmaalnager1872004@gmail.com",
+            "EMAIL_PASSWORD": "yqxr jcqq uvsv ssja",
+            "GOOGLE_CLIENT_ID": "584111495178-nu33hv9o2q3qkmmkli5mb6gthp8rolng.apps.googleusercontent.com",
+            "GOOGLE_CLIENT_SECRET": "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"
+        }
     },
     "https": {
       "commandName": "Project",
@@ -25,9 +30,14 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7124;http://localhost:5281",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "JWT_KEY": "8dfb965a2a4f4b26840959c6688a043e", // A9$kL!zR78@#Qp2W%4Xd!8nF23*BmC9$Vt6
+            "EMAIL_USER": "asmaalnager1872004@gmail.com",
+            "EMAIL_PASSWORD": "yqxr jcqq uvsv ssja",
+            "GOOGLE_CLIENT_ID": "584111495178-nu33hv9o2q3qkmmkli5mb6gthp8rolng.apps.googleusercontent.com",
+            "GOOGLE_CLIENT_SECRET": "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"
+        }
     },
     "IIS Express": {
       "commandName": "IISExpress",

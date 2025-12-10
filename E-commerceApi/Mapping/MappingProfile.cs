@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using E_commerceApi.DTOs.CityDto;
-using E_commerceApi.DTOs.HotelDto;
-using E_commerceApi.Models;
+using Travel.DTOs.CityDto;
+using Travel.DTOs.HotelDto;
+using Travel.Models;
 
-namespace E_commerceApi.Mapping
+namespace Travel.Mapping
 {
     public class MappingProfile : Profile
     {

@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace E_commerceApi.Repository.Interfaces
+namespace Travel.Repository.Interfaces
 {
     public interface IRepository<T> where T : class
     {

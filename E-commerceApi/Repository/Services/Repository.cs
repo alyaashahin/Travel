@@ -1,9 +1,9 @@
 ﻿using System.Linq.Expressions;
-using E_commerceApi.Data;
-using E_commerceApi.Repository.Interfaces;
+using Travel.Data;
+using Travel.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace E_commerceApi.Repository.Services
+namespace Travel.Repository.Services
 {
     public class Repository<T> : IRepository<T> where T : class
     {

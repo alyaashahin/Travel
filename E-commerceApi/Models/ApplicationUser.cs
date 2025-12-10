@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace E_commerceApi.Models
+namespace Travel.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        public string Fullname { get; set; }
         // Navigation properties
         public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
         public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();

@@ -1,4 +1,4 @@
-﻿namespace E_commerceApi.DTOs.CityDto
+﻿namespace Travel.DTOs.CityDto
 {
     public class CreateCityDto
     {

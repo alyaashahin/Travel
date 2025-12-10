@@ -1,4 +1,4 @@
-﻿namespace E_commerceApi.ResponseModel
+﻿namespace Travel.ResponseModel
 {
     public class ResponseModel<T>
     {

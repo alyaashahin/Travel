@@ -1,8 +1,8 @@
-using E_commerceApi.Models;
+using Travel.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace E_commerceApi.Data
+namespace Travel.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

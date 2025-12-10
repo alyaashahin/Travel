@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using E_commerceApi.DTOs.CityDto;
-using E_commerceApi.Interfaces;
-using E_commerceApi.Models;
-using E_commerceApi.Repository.Interfaces;
-using E_commerceApi.ResponseModel;
+using Travel.DTOs.CityDto;
+using Travel.Interfaces;
+using Travel.Models;
+using Travel.Repository.Interfaces;
+using Travel.ResponseModel;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 
-namespace E_commerceApi.Services
+namespace Travel.Services
 {
     public class CityService : ICityService
     {

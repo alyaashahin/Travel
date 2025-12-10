@@ -1,7 +1,7 @@
 ﻿using Azure.Core;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace E_commerceApi.Services;
+namespace Travel.Services;
 public class LocalImageService
 {
     private readonly string uploadsFolder;

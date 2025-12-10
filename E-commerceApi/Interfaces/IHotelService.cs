@@ -1,7 +1,7 @@
-﻿using E_commerceApi.DTOs.HotelDto;
-using E_commerceApi.ResponseModel;
+﻿using Travel.DTOs.HotelDto;
+using Travel.ResponseModel;
 
-namespace E_commerceApi.Interfaces
+namespace Travel.Interfaces
 {
     public interface IHotelService
     {

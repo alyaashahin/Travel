@@ -1,9 +1,9 @@
-﻿using E_commerceApi.DTOs.CityDto;
-using E_commerceApi.Interfaces;
+﻿using Travel.DTOs.CityDto;
+using Travel.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace E_commerceApi.Controllers
+namespace Travel.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
