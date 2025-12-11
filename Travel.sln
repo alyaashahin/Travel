@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel", "E-commerceApi\Travel.csproj", "{C91C3819-A445-4302-A68E-0C433BD6EC9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth.api", "auth.api\auth.api.csproj", "{5E61F8E2-F9C3-4D2B-9C65-6E1922DB3988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C91C3819-A445-4302-A68E-0C433BD6EC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C91C3819-A445-4302-A68E-0C433BD6EC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C91C3819-A445-4302-A68E-0C433BD6EC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E61F8E2-F9C3-4D2B-9C65-6E1922DB3988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E61F8E2-F9C3-4D2B-9C65-6E1922DB3988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E61F8E2-F9C3-4D2B-9C65-6E1922DB3988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E61F8E2-F9C3-4D2B-9C65-6E1922DB3988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
